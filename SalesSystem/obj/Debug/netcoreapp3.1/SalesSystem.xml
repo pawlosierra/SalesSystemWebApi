@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SalesSystem</name>
+    </assembly>
+    <members>
+        <member name="M:SalesSystem.Controllers.ClientsController.GetAll">
+            <summary>
+            Get all Clients of Sale System.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalesSystem.Controllers.ClientsController.GetById(System.Int32)">
+            <summary>
+            Get specific clint using the ID. 
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SalesSystem.DTOs.ClientDTO.Name">
+            <summary>
+            Name of the client
+            </summary>
+        </member>
+        <member name="P:SalesSystem.DTOs.SaleDTO.ClientId">
+            <summary>
+            Id of Client
+            </summary>
+        </member>
+        <member name="P:SalesSystem.DTOs.SaleDTO.Total">
+            <summary>
+            Total of Sale
+            </summary>
+        </member>
+        <member name="P:SalesSystem.DTOs.SaleDTO.Concepts">
+            <summary>
+            Concepts by Sale
+            </summary>
+        </member>
+    </members>
+</doc>
